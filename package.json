@@ -1,11 +1,10 @@
 {
-  {
-    "name": "reflective-journal-bot"
-  
+  "name": "reflective-journal-bot",
+  "version": "1.0.0",
   "dependencies": {
-    "@vercel/blob": "^1.1.1",
+    "openai": "^4.20.0",
     "axios": "^1.9.0",
-    "openai": "^5.0.1"
-    }
+    "@vercel/blob": "^1.1.1"
   }
 }
+
