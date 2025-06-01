@@ -1,28 +1,17 @@
 {
   "name": "reflective-journal-bot",
   "version": "1.0.0",
+  "type": "module",
   "dependencies": {
     "@vercel/blob": "^1.1.1",
     "axios": "^1.6.0",
     "openai": "^4.104.0"
   },
-"engines": {
-  "node": "20.x"
-},
+  "engines": {
+    "node": "20.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ShopInception/reflective-journal-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ShopInception/reflective-journal-bot/issues"
-  },
-  "homepage": "https://github.com/ShopInception/reflective-journal-bot#readme",
-  "description": ""
+  }
 }
